@@ -16,12 +16,20 @@ Plugin 'arcticicestudio/nord-vim'
 " Editor Config
 Plugin 'editorconfig/editorconfig-vim'
 
-" Airline (powerline)
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+" Status line
+Plugin 'itchyny/lightline.vim'
 
 " Linter
 Plugin 'w0rp/ale'
+
+" Undo tree
+Plugin 'mbbill/undotree'
+
+" Tmux navigator
+Plugin 'christoomey/vim-tmux-navigator'
+
+" Start screen
+Plugin 'mhinz/vim-startify'
 
 call vundle#end()
 filetype plugin indent on
@@ -30,8 +38,10 @@ filetype plugin indent on
 colorscheme nord
 set laststatus=2
 set noshowmode
-let g:airline_theme='wombat'
-let g:airline_powerline_fonts=1
+
+let g:lightline = {
+\ 'colorscheme': 'jellybeans',
+\ }
 
 " Default vim setup
 set tabstop=4
@@ -40,6 +50,11 @@ set expandtab
 set cursorline
 set number
 set relativenumber
+
+nnoremap <leader>ut :UndotreeToggle<CR>
+nnoremap <leader>uf :UndotreeFocus<CR>
+
+nnoremap <leader>e :Explore<CR>
 
 " 80+
 highlight OverLength ctermbg=red ctermfg=white

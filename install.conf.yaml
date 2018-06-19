@@ -1,8 +1,5 @@
 - clean: ['~']
 
-- shell:
-    - [git submodule update --init --recursive, Installing submodules]
-
 - link:
     ~/.zsh: zsh/.zsh
     ~/.zshrc: zsh/.zshrc
@@ -11,7 +8,8 @@
     ~/.vimrc: vim/.vimrc
     ~/.vim: vim/.vim
     ~/.cookies: cookies
+    ~/.gdbinit: gdb/.gdbinit
+    ~/.dir_colors: misc/dir_colors
 
 - pip:
-    file: requirements.txt
-    binary: /usr/local/bin/pip
+    file: python/requirements.txt
