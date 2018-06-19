@@ -1,0 +1,3 @@
+powerline-status==2.6
+cookiecutter==1.6.0
+maybe==0.04
