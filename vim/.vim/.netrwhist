@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/media/thomas/Files/Work/test/valgrindTuto'
-let g:netrw_dirhist_2='/home/thomas/dotfiles_template/vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/media/thomas/Files/Work/images/postgres'
+let g:netrw_dirhist_2='/media/thomas/Files/Work/images'
+let g:netrw_dirhist_3='/media/thomas/Files/Work/images/chrony-server'
+let g:netrw_dirhist_4='/media/thomas/Files/Work/images'

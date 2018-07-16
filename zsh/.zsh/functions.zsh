@@ -12,3 +12,8 @@ function weather() {
         curl http://wttr.in/$1
     fi
 }
+
+# Curl JSON
+function curljson() {
+    curl $1 | python -m json.tool
+}

@@ -31,6 +31,14 @@ Plugin 'christoomey/vim-tmux-navigator'
 " Start screen
 Plugin 'mhinz/vim-startify'
 
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'scrooloose/nerdcommenter'
+
+Plugin 'posva/vim-vue'
+
+Plugin 'mileszs/ack.vim'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -56,6 +64,12 @@ nnoremap <leader>uf :UndotreeFocus<CR>
 
 nnoremap <leader>e :Explore<CR>
 
+nnoremap <leader>n :setl rnu!<CR>
+
+if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+endif
+
 " 80+
 highlight OverLength ctermbg=red ctermfg=white
 match OverLength /\%81v./
@@ -64,5 +78,7 @@ match OverLength /\%81v./
 nnoremap <Leader>s :w<CR>
 
 let g:ale_lint_on_text_changed="never"
+
+
 
 syntax on
