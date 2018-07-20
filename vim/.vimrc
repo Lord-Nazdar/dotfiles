@@ -39,6 +39,8 @@ Plugin 'posva/vim-vue'
 
 Plugin 'mileszs/ack.vim'
 
+Plugin 'tpope/vim-fugitive'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -58,6 +60,9 @@ set expandtab
 set cursorline
 set number
 set relativenumber
+
+" Add the 80 character markup line
+let &colorcolumn="80,".join(range(120,999),",")
 
 nnoremap <leader>ut :UndotreeToggle<CR>
 nnoremap <leader>uf :UndotreeFocus<CR>

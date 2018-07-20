@@ -19,3 +19,5 @@ source ~/.zsh/functions.zsh
 source ~/.zsh/docker.zsh
 
 export EDITOR='vim'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
