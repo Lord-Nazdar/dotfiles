@@ -10,6 +10,8 @@
     ~/.cookies: cookies
     ~/.gdbinit: gdb/.gdbinit
     ~/.dir_colors: misc/dir_colors
+    ~/.scripts: scripts
+    ~/.i3: i3
 
 - pip:
     file: python/requirements.txt

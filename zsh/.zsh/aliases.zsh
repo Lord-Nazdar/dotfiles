@@ -6,3 +6,6 @@ alias ll='ls -al --group-directories-first --color=always'
 
 # GIT
 alias gs='git status'
+
+# Youtube
+alias youtube='mpsyt'

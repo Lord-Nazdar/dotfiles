@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/media/thomas/Files/Work/images/postgres'
-let g:netrw_dirhist_2='/media/thomas/Files/Work/images'
-let g:netrw_dirhist_3='/media/thomas/Files/Work/images/chrony-server'
-let g:netrw_dirhist_4='/media/thomas/Files/Work/images'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/thomas/dotfiles_template'
+let g:netrw_dirhist_2='/home/thomas/Downloads/i3lock-color'
+let g:netrw_dirhist_3='/home/thomas/.config/i3'

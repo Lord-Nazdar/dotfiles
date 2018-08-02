@@ -17,3 +17,8 @@ function weather() {
 function curljson() {
     curl $1 | python -m json.tool
 }
+
+# Disassemble intel x86 binaries
+function disasm() {
+    objdump -drwC -M intel -S $1
+}

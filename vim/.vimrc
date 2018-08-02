@@ -41,6 +41,8 @@ Plugin 'mileszs/ack.vim'
 
 Plugin 'tpope/vim-fugitive'
 
+Plugin 'majutsushi/tagbar'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -70,6 +72,7 @@ nnoremap <leader>uf :UndotreeFocus<CR>
 nnoremap <leader>e :Explore<CR>
 
 nnoremap <leader>n :setl rnu!<CR>
+nnoremap <leader>t :TagbarToggle<CR>
 
 if executable('ag')
     let g:ackprg = 'ag --vimgrep'
