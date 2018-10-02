@@ -18,6 +18,8 @@ source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
 source ~/.zsh/docker.zsh
 
+source ~/.zsh/secret.zsh
+
 export EDITOR='vim'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

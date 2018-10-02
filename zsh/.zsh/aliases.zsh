@@ -9,3 +9,8 @@ alias gs='git status'
 
 # Youtube
 alias youtube='mpsyt'
+
+# Task warrior
+alias tw='task list project:Work'
+
+alias vim='nvim'

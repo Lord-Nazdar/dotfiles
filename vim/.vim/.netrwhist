@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/thomas/dotfiles_template'
-let g:netrw_dirhist_2='/home/thomas/Downloads/i3lock-color'
-let g:netrw_dirhist_3='/home/thomas/.config/i3'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/media/thomas/Files/Support/7033/2018-08-03/FMS/ff204c9a-93e4-11e8-b838-005056830356'
+let g:netrw_dirhist_2='/media/thomas/Files/Support/7033/2018-08-03/FMS'
+let g:netrw_dirhist_3='/media/thomas/Files/Support/7033/2018-08-03'
+let g:netrw_dirhist_4='/media/thomas/Files/Support/7033/2018-08-03/Client Log'

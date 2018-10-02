@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/drivers/v3_0_1'
+let g:netrw_dirhist_2='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/drivers'
+let g:netrw_dirhist_3='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/odometry'
+let g:netrw_dirhist_4='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc'
+let g:netrw_dirhist_5='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc/udp'
+let g:netrw_dirhist_6='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc/udp/packet'
+let g:netrw_dirhist_7='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc/udp/packet/v2_0_8'
+let g:netrw_dirhist_8='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc/udp/packet/v3_0_4'
+let g:netrw_dirhist_9='/media/thomas/Files/Work/core/incubed-ros-pkg/src/incubed_motion/ose800_driver/src/plc/udp/packet/v3_0_1'
